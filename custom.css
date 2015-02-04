@@ -32,6 +32,10 @@ div#en_review_proposal_box {
   background: white;
 }
 
+div#en_review_proposal_box h3, p {
+  display: none;
+}
+
 div#en_review_proposal_box  textarea {
   width: 80%;
 }
