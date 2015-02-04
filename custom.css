@@ -32,7 +32,7 @@ div#en_review_proposal_box {
   background: white;
 }
 
-div#en_review_proposal_box h3, p {
+div#en_review_proposal_box h3, div#en_review_proposal_box p {
   display: none;
 }
 
