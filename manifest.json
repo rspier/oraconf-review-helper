@@ -6,7 +6,10 @@
   "version": "1.0",
   "content_scripts": [
 	{
-	  "matches": ["*://www.oscon.com/*/user/reviewing/*"],
+	  "matches": [
+		"*://www.oscon.com/*/user/reviewing/*",
+		"*://solidcon.com/*/user/reviewing/*"
+	  ],
 	  "css": ["custom.css"],
 	  "js": ["third_party/jquery.min.js", "js.js"]
 	}
