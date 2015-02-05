@@ -28,3 +28,28 @@ h1.detach();
 h1.appendTo(fixed_header);
 
 header_spacer.css('height', fixed_header.css('height'));
+
+var urlRE = new RegExp('(https?://.+)\\b', 'i');
+
+function linkify(elements) {
+  for (var i in elements) {
+    var e = elements[i];
+    if (!e.innerHTML) {
+      continue;
+    }
+    if (e.innerHTML.match(urlRE)) {
+        console.log(e.innerHTML);
+      e.innerHTML = e.innerHTML.replace(urlRE, '<a href="$1">$1</a>');
+    }
+  }
+}
+
+// linkify all TD elements.
+$(document).ready(function() {
+  linkify($('td'));
+});
+// TODO(robert) - linkify the <p> elements too.  Consider switching to
+// https://github.com/cowboy/javascript-linkify/
+// The existing function doesn't work because <p> elements may already
+// have links in them.
+// linkify($('p'));
