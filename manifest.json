@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Custom CSS for O'Reilly's Conference Review Website",
+  "name": "Unofficial O'Reilly Conference Proposal Review Helper",
   "description": "This extension makes it easier to review for conferences like  OSCON.",
   "version": "1.0",
   "content_scripts": [
