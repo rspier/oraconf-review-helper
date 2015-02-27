@@ -23,7 +23,8 @@ var proposal_box = $("div#en_review_proposal_box");
 proposal_box.detach();
 proposal_box.appendTo(fixed_header);
 
-var h1 = $('h1');
+var en_user_tabs = $('div#en_user_tabs');
+var h1 = en_user_tabs.next();
 h1.detach();
 h1.appendTo(fixed_header);
 
