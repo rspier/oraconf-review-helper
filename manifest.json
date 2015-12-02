@@ -3,7 +3,7 @@
 
   "name": "Unofficial O'Reilly Conference Proposal Review Helper",
   "description": "This extension makes it easier to review for conferences like  OSCON.",
-  "version": "1.2",
+  "version": "1.21",
   "content_scripts": [
     {
       "matches": [

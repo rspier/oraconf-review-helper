@@ -16,8 +16,8 @@ limitations under the License.
 
 console.log('here');
 var open10 = $('div.en_search_panel').append(
-    '<a class="button">open 10 proposals</a>');
-open10.click( function(e) {
+    '<a id="open10" class="button">open 10 proposals</a>');
+$('#open10').click( function(e) {
     var proposals = $('.en_review_proposal_title A').slice(0,10);
     for (var i=0;i<proposals.length;i++) {
         window.open(proposals[i].href,'_blank');
