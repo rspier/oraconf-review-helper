@@ -8,6 +8,12 @@ Moves around some elements on the review page, and tweaks the CSS.
 
 This is not an official Google product.
 
+What it Does
+------------
++ Removes extraneous images and other flair.
++ Moves the review box to the top of the page.
++ Adds a "open 10 proposals" link to search pages to speed things up.
+
 Installing
 ----------
 
@@ -16,3 +22,4 @@ Installing
 3. make sure 'Developer mode' is checked in the top right.
 4. select 'Load unpacked extension' and choose the directory of the
 git checkout.
+
